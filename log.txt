@@ -1,0 +1,3 @@
+g++ main.cpp -g -Wall -std=c++17 -c -I./libraries/include -I./imgui/include 
+g++ ./imgui/src/* -g -Wall -std=c++17 -c -I./libraries/include -I./imgui/include 
+g++ main.o imgui.o imgui-SFML.o imgui_tables.o imgui_draw.o imgui_widgets.o -g -Wall -std=c++17 -o ./bin/main.exe -I./libraries/include -I./imgui/include -L./libraries/lib -lsfml-window -lsfml-graphics -lsfml-system -lopengl32  
