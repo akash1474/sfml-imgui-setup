@@ -10,7 +10,10 @@
 	Copy *.h to imgui/include
 	Copy *.cpp to imgui/src
 
-** Your main.cpp file is located in src **
 
-Run
-`$make `
+**Your main.cpp file is located in src**
+
+*Run* `$make `
+
+>
+![Directory Structure](img.png "dir")
